@@ -1,1 +1,24 @@
-{ "name": "iptv-web-deploy", "version": "1.0.1", "private": true, "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview --port 5173" }, "dependencies": { "react": "^18.3.1", "react-dom": "^18.3.1", "react-router-dom": "^6.28.0", "tslib": "^2.8.1" }, "devDependencies": { "vite": "^5.4.8", "@vitejs/plugin-react": "^4.3.1", "typescript": "^5.6.3", "@types/react": "^18.3.11", "@types/react-dom": "^18.3.1" } }
+{
+  "name": "iptv-web-deploy",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "tslib": "^2.8.1",
+    "hls.js": "^1.5.11"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.6.3",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1"
+  }
+}
